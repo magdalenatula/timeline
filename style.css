@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Ubuntu', sans-serif;
+  }
+.st0{fill:none;}
+.st1{font-family:'Ubuntu', sans-serif; fill:black;}
+.st2{font-size:20px;}
+.st3{font-family:'Ubuntu', sans-serif;font-weight: bold; fill:black;}
+.st4{font-size:28px;}
+.st5{fill:#FFFFFF;}
+.st6{font-size:85px;}
+#ribbon{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-miterlimit:10; stroke-dasharray: 2000;
+  animation: dash 5s  alternate forwards;}
+.st8{font-family:'Leander';}
+.st9{font-size:52px;}
+.st10{font-size:127px;}
+.st11{font-size:84px;}
+.st12{font-size:36px;}
+#tommy path {stroke:black;stroke-width:1;stroke-miterlimit:10; stroke-dasharray: 2000; animation: dash 7s  alternate forwards;}
+#grace path {stroke:black;stroke-width:1;stroke-miterlimit:10; stroke-dasharray: 2000; animation: dash 7s  alternate forwards;}
+#headline {animation: fade 7s  alternate forwards; animation-delay: 2s; opacity:0;}
+#logo {animation: fade 7s  alternate forwards; opacity:0;}
+
+@keyframes dash {
+  0% {
+      stroke-dashoffset: 2000;
+  }
+    100% {
+      stroke-dashoffset: 0;
+
+    }
+  }
+
+@keyframes tommy {
+  0% {
+    stroke-dashoffset: 1000;
+    opacity: 0.3;
+}
+  100% {
+    stroke-dashoffset: 0;
+    opacity:1;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+}
+  100% {
+    opacity: 1;
+  }
+}
